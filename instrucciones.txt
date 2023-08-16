@@ -1,0 +1,18 @@
+se debe iniciar el packaje json
+se va a ocupar node
+en la consola se da npm init -y para que sea rapito sin y para poner las cosas
+luego creamos el archivo .gitignore
+le agregamos node_modules/
+para cuando se suba a git no se suba con el node_modules que se crea cuando se inicia el npm init
+
+luego nom i pg  sirve para la conexion con pg sql
+se instala el driver  para sql java driver para php my admin se busca depende que base de datos se utiliza 
+
+
+ console.log(results.command)  //comando que se corrio
+    console.log(results.fields) // campos de la base de datos
+    console.log(results.oid)// el oid de la consulta
+    console.log(results.rowCount) // numero de fila que nos trajo
+    //console.log(results.rows) // rows los resultados
+
+se ejecuta con node main js
